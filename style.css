@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "montserrat";
+  font-weight: 900;
+}
+/* title */
+#title {
+  background-color: #07cdfe;
+}
+.container-fluid {
+  padding: 3% 15% 10% 15% !important;
+}
+.navbar {
+  padding-bottom: 50px !important;
+}
+.nav-item {
+  padding: 0px 18px;
+}
+h1 {
+  font-size: 64px !important;
+  line-height: 1.5;
+  font-family: Montserrat-black;
+  font-weight: 900 !important;
+  color: white;
+  padding-top: 33px;
+  padding-bottom: 50px;
+}
+
+.CR {
+  padding-bottom: 0px !important;
+}
+.img-1 {
+  position: relative;
+  left: 55px;
+  top: 0px;
+  transform: rotate(20deg);
+}
+@media (max-width: 800px) {
+  #title {
+    text-align: center;
+  }
+  .img-1 {
+    display: none;
+  }
+
+  /* second-part */
+}
+.hsp {
+  color: black;
+  font-size: 1.5rem !important;
+  font-family: "Montserrat-bold" !important;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.psp {
+  color: #8f8f8f;
+  text-align: center;
+}
+.sp {
+  padding: 10% 15% 10% 15% !important;
+  margin: 0px !important;
+  position: relative;
+  background-color: white;
+}
+
+.icon {
+  color: #98d7e7;
+}
+.icon:hover {
+  color: #07cdfe;
+}
+
+/* testimonial */
+#testimonial {
+  background-color: #98d7e7;
+  padding-top: 15% !important;
+  padding-bottom: 15% !important;
+}
+.carousel-item {
+  padding-right: 10% !important;
+  padding-left: 10% !important;
+}
+.t-h {
+  text-align: center;
+  font-family: "Montserrat-bold";
+  font-size: 3rem !important;
+  padding-bottom: 0%;
+  margin: 0px !important;
+}
+.t-c {
+  padding-top: 10px;
+  color: white;
+}
+
+/* Pricing-table */
+.Pricing-table {
+  padding: 10% 15% 10% 15% !important;
+  margin: 0px !important;
+}
+
+/* Card */
+.card-body {
+  text-align: center;
+  height: 300px;
+}
+
+.card-p {
+  padding-bottom: 140px;
+}
+
+.card-header {
+  text-align: center;
+}
+
+/* footer */
+#footer {
+  padding: 0% 15% 5% 15% !important;
+  text-align: center;
+}
